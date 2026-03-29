@@ -3,7 +3,7 @@ using UnityEngine;
 namespace EldenLib.Math
 {
     /// <summary>
-    /// Math Angles Utilities
+    /// MainMath Angles Utilities
     /// </summary>
     public class Angles
     {
@@ -30,10 +30,10 @@ namespace EldenLib.Math
             => Mathf.Atan2(p2.y - p1.y, p2.x - p1.x) * 180 / Mathf.PI;
 
         /// <summary>
-        /// Get avarage between two angles.
+        /// Get average between two angles.
         /// Note: this also represent the angle directly between two other angles.
         /// </summary>
-        /// <returns>Avarage value between two angles.</returns>
+        /// <returns>Average value between two angles.</returns>
         public float AngleAvg(float a, float b) => Mathf.LerpAngle(a, b, 0.5f);
     }
 }
