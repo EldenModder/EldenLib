@@ -1,7 +1,9 @@
 {
     "name": "EldenLib",
     "rootNamespace": "EldenLib",
-    "references": [],
+    "references": [
+        "GUID:2f21fa7ff7e5f6f47aa9cd98842915fa"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
